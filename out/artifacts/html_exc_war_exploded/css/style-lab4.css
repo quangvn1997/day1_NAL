@@ -1,0 +1,128 @@
+body {
+    font-size: 13px;
+    color: #333333;
+    background-color: #fff;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: 100%;
+}
+
+header, footer {
+    padding: 16px;
+    color: white;
+    background-color: gray;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin :0 auto;
+    border-left: 1px solid gray;
+    padding: 10px;
+    width: 750px;
+}
+
+h3 {
+    border: 1px solid;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+h3.logo {
+     border: #f00 solid 1px;
+     color: #f00;
+}
+
+ div .content {
+    border-collapse: collapse;
+    display: table;
+     width: 100%;
+}
+
+div.caption {
+    display: table-caption;
+}
+
+div.row {
+    display: table-row;
+}
+div.cell {
+    border: 1px solid #696969;
+    display: table-cell;
+    padding: 3px 0 3px 5px;
+    border-bottom: 0;
+}
+.row .cell:first-child {
+    width: 150px;
+    background: #ddd;
+    border-right: 0;
+}
+
+.cell label {
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.cell span{
+    margin: 0 5px;
+}
+
+input[type="text"], select {
+    height: 20px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    line-height: 1.42857143;
+    margin: 1px 5px;
+    color: #555;
+    background-color: #fff;
+}
+
+.policy {
+    padding: 25px;
+}
+
+.policy p:first-child {
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px dashed red;
+    border-top: 2px dashed red;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.policy-content {
+    overflow-y: scroll;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #696969;
+}

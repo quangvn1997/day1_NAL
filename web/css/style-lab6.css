@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    width: 70%;
+    margin: 0 auto;
+    height: 100px;
+    clear: both;
+}
+
+main {
+    width: 100%;
+}
+footer {
+    background: cornflowerblue;
+    height: 25px;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    border: 2px solid black;
+    clear: both;
+}
+
+.logo{
+    float: left;
+}
+.logo img{
+    float: left;
+    padding: 20px 10px 0 0;
+}
+.logo div {
+    float: left;
+    font-size: 30px;
+    color: black;
+}
+header nav{
+    float: right;
+}
+
+header nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 35px;
+}
+
+header nav li{
+    color: blue;
+    display: inline-block;
+    padding: 0px 20px ;
+    line-height: 25px;
+    margin-left: -5px;
+    text-decoration: none;
+    border-right: 2px solid black;
+}
+header nav li:last-child{
+    border-right: none;
+    padding-right: 0;
+}
+
+.slogan {
+    background: cornflowerblue;
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+}
+
+.slogan q {
+    display: block;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 20px;
+}
+.slogan p {
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 260px;
+}
+.content {
+    width: 70%;
+    margin: 20px auto;
+}
+.content div a{
+    color: blue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.content section {
+    width: 30%;
+    padding-right: 3%;
+    color: black;
+    font-size: 15px;
+    float: left;
+    font-family: 'Pacifico', cursive;
+}
+
+.content section img{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
